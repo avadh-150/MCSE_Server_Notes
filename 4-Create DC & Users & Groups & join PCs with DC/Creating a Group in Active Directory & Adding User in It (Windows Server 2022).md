@@ -1,3 +1,5 @@
+# Creating a Group in Active Directory & Adding User in It (Windows Server 2022)
+
 ## 🧠 Purpose
 This guide explains how to create a new **Security Group** in **Active Directory Users and Computers (ADUC)** in Windows Server 2022.
 
