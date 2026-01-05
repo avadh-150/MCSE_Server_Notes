@@ -7,6 +7,8 @@ No fluff. No theory dump. This is **exactly how labs are documented in real inst
 
 # LAB REPORT
 
+![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/GNS3.png?raw=true)
+
 ## Connecting **GNS3 ↔ VMware ↔ Windows Server 2022**
 
 ---
@@ -77,7 +79,8 @@ To establish network connectivity between **GNS3**, **VMware Workstation**, and 
     - Subnet: `10.10.11.0 /24`
         
 5. Apply settings
-    
+
+    ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Virtual%20Network%20editor.png?raw=true)
 
 Purpose:
 
@@ -101,7 +104,7 @@ Inside **Windows Server 2022**:
 IP Address : 10.10.11.10
 Subnet     : 255.255.255.0
 Gateway    : 10.10.11.1
-DNS        : 127.0.0.1
+DNS        : 10.10.11.10
 ```
 
 5. Save settings
