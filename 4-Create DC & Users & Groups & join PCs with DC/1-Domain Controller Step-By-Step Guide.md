@@ -8,10 +8,10 @@
    - And Turn off **IPv6**
    - Enable **IPv4** and set:
      ```
-     IP Address: 192.168.1.10
+     IP Address: 10.10.11.10
      Subnet Mask: 255.255.255.0
-     Default Gateway: 192.168.1.1
-     Preferred DNS: 127.0.0.1 (or your DNS server)
+     Default Gateway: 10.10.11.1
+     Preferred DNS: 10.10.11.10 (or your DNS server)
      ```
 4. Click **Save**.
    
