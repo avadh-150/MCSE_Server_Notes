@@ -29,16 +29,17 @@ To establish network connectivity between **GNS3**, **VMware Workstation**, and 
 ## 2. Network Topology
 
 ```
-          Internet
+            Internet
               |
            NAT (GNS3)
               |
         R1 (Router)
-         fa0/1 | fa0/0
-                |
-             Switch
-          |              |
-     Windows Server     PC1 (VPCS)
+         fa0/1 |
+               | 
+               |fa0/0
+           --Switch ----- ------------
+          |              |           |
+     Windows Server     PC1 (VPCS)   PC2
 ```
 
 - **R1** acts as Default Gateway
