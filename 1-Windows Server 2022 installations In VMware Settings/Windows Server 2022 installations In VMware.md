@@ -68,13 +68,17 @@ I’ll give you the **correct, lab-ready, no-nonsense** way to install **Windows
     - Under **Network Adapter**, change the setting to **Custom: Specific virtual network**.
         
     - The video selects `/dev/vmnet2`.
-    
+
+	<img width="1912" height="967" alt="image" src="https://github.com/user-attachments/assets/e43ccc5b-310b-46f4-a9e5-19157ea1d815" />
+	
 3. **Virtual Network Editor:**
     
     - The user goes to `Edit` > `Virtual Network Editor`.
         
     - The configuration of various subnets (vmnet2, etc.) to ensure the VM is on a specific private network (e.g., `10.10.11.0`).
-        
+
+	![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Virtual%20Network%20editor.png?raw=true)
+
 4. **Save:** Click **Save** (or OK) to finalize all hardware changes.
     
 
