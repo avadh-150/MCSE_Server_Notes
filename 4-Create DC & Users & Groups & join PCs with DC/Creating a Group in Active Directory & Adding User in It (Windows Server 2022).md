@@ -15,6 +15,7 @@ This guide explains how to create a new **Security Group** in **Active Directory
 - Click the **“Create a new group in the current container”** button in the toolbar.
 
 📸 *Example Screenshot:*  
+
 ![Create Group Button](MCSE Class Notes/img/Create Grp icon.png)
 
 ---
