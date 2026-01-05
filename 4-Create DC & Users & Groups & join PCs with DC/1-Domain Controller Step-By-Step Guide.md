@@ -43,7 +43,7 @@
 ## Step 4: Promote the Server to a Domain Controller
 1. In **Server Manager**, click the **Notification Flag (⚠️)** → choose **Promote this server to a domain controller**.
 2. Select **Add a new forest**.
-3. Enter your **Root domain name** (example: `example.local`).
+3. Enter your **Root domain name** like `iforward.in`.
 4. Click **Next**.
    
    <img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/cb446ef0-7c9c-4cfe-b089-60dc0d211071" /><img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/d190d28f-df0e-4a39-a8bf-3bf1fd1aecb9" />
@@ -73,7 +73,7 @@
 ---
 
 ### Step 4c: Additional Options
-- Confirm the **NetBIOS name** (default is fine).  
+- Confirm the **NetBIOS name** is `IFORWARD`(default is fine).  
 - Click **Next**.
 
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/5d77fa44-89d5-4887-8c67-f99a32764f0a" />
