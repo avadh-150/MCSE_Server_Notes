@@ -10,7 +10,7 @@ After a snapshot is taken, you can view and potentially restore previous versi
 
 A shadow copy does not make a complete copy of all files for each snapshot.
 
-Instead, after a snapshot is taken, Windows Server 2012 R2 tracks changes to the drive. A specific amount of disk space is allocated for tracking the changed disk blocks. When you access a previous version of a file, some of the content might be in the current version of the file, and some might be in the snapshot.
+Instead, after a snapshot is taken, Windows Server 2022 tracks changes to the drive. A specific amount of disk space is allocated for tracking the changed disk blocks. When you access a previous version of a file, some of the content might be in the current version of the file, and some might be in the snapshot.
 
 On this post this time, lets go through a very simple step how you can implement & configure shadow copies in Windows Server 2012 R2…
 
