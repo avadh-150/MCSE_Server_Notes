@@ -123,8 +123,9 @@ On **DC Server 2022**:
     
 3. You should see **PC1**
     
-
 If it’s there → domain join is **successful**.
+
+<img width="785" height="550" alt="image" src="https://github.com/user-attachments/assets/bf5567a1-6033-4d1c-9edf-eab6cb1f4f16" />
 
 ---
 
