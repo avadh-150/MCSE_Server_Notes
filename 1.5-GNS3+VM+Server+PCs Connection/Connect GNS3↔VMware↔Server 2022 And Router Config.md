@@ -86,6 +86,8 @@ Purpose:
 
 > Allows VMware VMs to communicate with GNS3 via Cloud node.
 
+> And Also Same things follow for PC1 and PC2
+
 ---
 ### Step 2: Configure Windows Server 2022 Network
 
@@ -227,6 +229,12 @@ ping 10.10.11.10
 ping 8.8.8.8
 ```
 
+### From PC2:
+
+```bash
+ping 10.10.11.10
+ping 8.8.8.8
+```
 Expected Result:
 
 - All devices communicate successfully
