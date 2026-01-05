@@ -14,9 +14,9 @@ This guide explains how to create a new **Security Group** in **Active Directory
 ### **Step 3: Create a New Group**
 - Click the **“Create a new group in the current container”** button in the toolbar.
 
-📸 *Example Screenshot:*  
+📸 *Create Group Button Screenshot:*  
 
-![Create Group Button](MCSE Class Notes/img/Create Grp icon.png)
+![Create Group Button](../MCSE%20Class%20Notes/img/Create%20Grp%20icon.png)
 
 ---
 
@@ -27,8 +27,9 @@ This guide explains how to create a new **Security Group** in **Active Directory
   - **Group type:** Security  
 - Click **OK** to create the group.
 
-📸 *Example Screenshot:*  
-![New Group Window](MCSE Class Notes/img/Create Grp Popup.pngs)
+📸 *New Group Window:*  
+![New Group Window](../MCSE%20Class%20Notes/img/Create%20Grp%20Popup.png)
+
 
 ---
 
@@ -61,8 +62,8 @@ You have successfully created a new **Security Group** named `IT Team` inside `i
   `iforward.in → Users`
 - Locate and double-click the **IT Team** group to open its **Properties**.
 
-📸 *Example Screenshot:*  
-![Open IT Team Group](MCSE%20Class%20Notes/img/IT TEAM Properties.png)
+📸 *Open IT Team Properties Screenshot:*  
+![Open IT Team Group](../MCSE%20Class%20Notes/img/IT%20TEAM%20Properties.png)
 
 ---
 
@@ -70,7 +71,7 @@ You have successfully created a new **Security Group** named `IT Team` inside `i
 - In the group’s properties window, click on the **“Members”** tab.
 
 📸 *Example Screenshot:*  
-![Members Tab](MCSE%20Class%20Notes/img/IT Team Grp Members.png)
+![Members Tab](../MCSE%20Class%20Notes/img/IT%20Team%20Grp%20Members.png)
 
 ---
 
@@ -84,7 +85,7 @@ You have successfully created a new **Security Group** named `IT Team` inside `i
 4. Click **OK** to add them to the group.
 
 📸 *Example Screenshot:*  
-![Add Users Window](MCSE%20Class%20Notes/img/adding user in grp.png)
+![Add Users Window](../MCSE%20Class%20Notes/img/adding%20user%20in%20grp.png)
 
 ---
 ### **Step 4: Confirm Membership**
@@ -92,7 +93,7 @@ You have successfully created a new **Security Group** named `IT Team` inside `i
 - Click **Apply → OK** to save the changes.
 
 📸 *Example Screenshot:*  
-![Users Added to Group](MCSE%20Class%20Notes/img/member verification.png)
+![Add Users Window](../MCSE%20Class%20Notes/img/member%20verification.png)
 
 ---
 ## 📝 Notes
