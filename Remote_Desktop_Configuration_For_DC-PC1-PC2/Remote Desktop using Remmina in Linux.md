@@ -18,6 +18,8 @@ Before connecting from Remmina, make sure **Remote Desktop** is enabled on each 
   > “Allow remote connections to this computer.”
 - Click **Apply → OK**.
 
+![image](https://4sysops.com/wp-content/uploads/2018/04/Allow-remote-connections-in-the-Windows-10-Control-Panel.png)
+
 ### **Step 3: Allow RDP through Windows Firewall**
 - Open **Windows Defender Firewall → Allow an app or feature through Windows Defender Firewall**.
 - Make sure **Remote Desktop** is checked for both **Private** and **Public** networks.
@@ -30,8 +32,8 @@ Get-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server\W
 ```
 
 📸 *Example Screenshot:*  
-![Enable Remote Desktop](MCSE%20Class%20Notes/img/RDP Enable Verification.png)
 
+![Image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/RDP%20Enable%20Verification.png?raw=true)
 ---
 
 
@@ -64,6 +66,7 @@ You can open it from:
 ```bash
 remmina
 ```
+![image](https://media.geeksforgeeks.org/wp-content/uploads/20240227121152/2024-02-27_12-11.png)
 
 ---
 
@@ -82,11 +85,12 @@ In the **Remote Connection Profile** window, fill in details as follows:
 | Protocol | RDP - Remote Desktop Protocol |
 | Server   | 10.10.11.10                   |
 | Username | administrator@iforward.in     |
-| Password | test@123                      |
+| Password | Test@123                      |
 | Domain   | iforward.in (optional)        |
 
 📸 *Example Screenshot:*  
-![Remmina Connection Profile](MCSE%20Class%20Notes/img/Adding Remote Machine Details.png)
+
+![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Adding%20Remote%20Machine%20Details.png?raw=true)
 
 Then click **Save and Connect**.
 
@@ -120,8 +124,8 @@ Each connection will appear in Remmina’s main window as a saved profile.
 3. Enter the credentials if prompted and click **OK**.
 4. You are now remotely connected to that machine.
 📸 *Example Screenshot:*  
-![Connected to Remote System](MCSE%20Class%20Notes/img/Remote Sucess.png)
 
+![Image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Remote%20Sucess.png?raw=true)
 ---
 ---
 ## 📝 Notes
