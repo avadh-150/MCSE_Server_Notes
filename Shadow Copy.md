@@ -1,7 +1,5 @@
 # Simple Step : Configuring Shadow Copies in Windows Server 2022
 
-August 2, 2014
-
 **What Are Shadow Copies?**
 
 A shadow copy is a **snapshot of a set of data, such as a file or folder**.
