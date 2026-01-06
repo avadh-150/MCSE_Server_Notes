@@ -1,4 +1,3 @@
-Based on the video provided, here are the step-by-step instructions for creating and properly deleting an **Organizational Unit (OU)** in Active Directory on Windows Server 2022.
 
 ---
 
