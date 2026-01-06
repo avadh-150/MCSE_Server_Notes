@@ -132,6 +132,8 @@ Beginners pick Core and then panic. Don’t.
 
 ![Image](https://static.packt-cdn.com/products/9781804615096/graphics/image/B18864_01_21.jpg)
 
+Datacenter offering more advanced virtualization capabilities and features like HotPatching for Azure edition VMs.
+
 ---
 ## Phase 7. Select the **Custom:
 
