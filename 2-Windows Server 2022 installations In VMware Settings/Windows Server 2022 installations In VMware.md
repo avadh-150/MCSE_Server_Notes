@@ -126,8 +126,6 @@ You will see options like:
 Windows Server 2022 Datacenter Evaluation (Desktop Experience)
 ```
 
-⚠️ If you pick **Core**, there is **NO GUI**.  
-Beginners pick Core and then panic. Don’t.
 
 ![Image](https://static.packt-cdn.com/products/9781804615096/graphics/image/B18864_01_21.jpg)
 
