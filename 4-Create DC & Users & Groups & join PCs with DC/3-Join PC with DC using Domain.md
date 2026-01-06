@@ -50,7 +50,7 @@ On **PC1 & 2**:
 
 ---
 
-## Step 2: Verify connectivity (don’t assume)
+## Step 2: Verify connectivity
 
 Open **Command Prompt** on PC1:
 
