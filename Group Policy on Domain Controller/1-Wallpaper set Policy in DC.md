@@ -1,4 +1,3 @@
-To configure a **Desktop Wallpaper Policy** on your Domain Controller (DC) for a client PC (PC1) as shown in the video tutorials, follow these exact steps:
 
 ### Step 1: Prepare and Share the Wallpaper
 
