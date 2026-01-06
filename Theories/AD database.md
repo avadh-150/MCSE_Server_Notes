@@ -1,4 +1,3 @@
-**Active Directory Database (AD DB)** — this is where people _think_ they understand AD and then prove they don’t. Let’s fix that.
 
 ---
 
