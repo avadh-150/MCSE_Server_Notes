@@ -115,7 +115,7 @@ This is the tab in your screenshot. This is where people screw up.
 
 - `Radadiya@avadh.in`
     
-- Used for **UPN login**
+- Used for **UPN (User Principal Name) login**
     
 - Must match domain suffix
     
