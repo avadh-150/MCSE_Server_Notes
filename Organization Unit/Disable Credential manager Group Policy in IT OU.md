@@ -1,4 +1,3 @@
-To disable the **Credential Manager** (the ability to store network passwords) on a specific PC via Group Policy, you need to use the Group Policy Management Console (GPMC) on your Domain Controller.1
 
 ---
 ### Phase 1: Configure the Group Policy Object (GPO)
