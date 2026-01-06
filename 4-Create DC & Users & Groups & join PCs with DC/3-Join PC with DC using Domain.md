@@ -1,7 +1,7 @@
 
 ---
 
-## Preconditions (don’t skip, this is where most people screw up)
+## Preconditions (don’t skip)
 
 1. **DC Server 2022**
     
