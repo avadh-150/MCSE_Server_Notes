@@ -1,4 +1,4 @@
-I’ll give you **clean, correct, no-nonsense steps**. Follow them exactly. If something breaks, it’s because a step was skipped or your system doesn’t meet requirements — not magic.
+
 
 ---
 
