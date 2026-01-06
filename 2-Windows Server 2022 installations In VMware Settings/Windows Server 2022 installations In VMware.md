@@ -1,4 +1,3 @@
-I’ll give you the **correct, lab-ready, no-nonsense** way to install **Windows Server 2022 on VMware Workstation**. Follow it exactly. If something breaks, it’s because you skipped a step.
 
 ---
  initial setup and configuration of a **Windows Server 2022** virtual machine using **VMware Workstation Pro**.
