@@ -1,4 +1,3 @@
-Based on the video provided, here are the step-by-step instructions for blocking the Command Prompt (CMD) via Group Policy and verifying the policy implementation using the `gpresult` command.
 
 ---
 
