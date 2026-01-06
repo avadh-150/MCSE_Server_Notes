@@ -1,7 +1,5 @@
 **Connect GNS3 ↔ VMware ↔ Windows Server 2022**.
 
-No fluff. No theory dump. This is **exactly how labs are documented in real institutes**.
-
 ---
 
 # LAB REPORT
