@@ -1,6 +1,5 @@
 
 
-This is a **no‑fluff, exam + real‑world focused book** built from your class notes. If you understand this end‑to‑end, you’re not guessing anymore — you actually know how Windows Server & AD work.
 
 ---
 
