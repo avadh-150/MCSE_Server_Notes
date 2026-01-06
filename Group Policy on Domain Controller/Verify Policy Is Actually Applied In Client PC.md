@@ -1,6 +1,7 @@
 On **PC1**:
 
 `gpresult /r`
+
 `gpresult /?`
 
 <img width="1659" height="2075" alt="image" src="https://github.com/user-attachments/assets/7b66f602-b6df-4e68-954e-e8047701db53" />
