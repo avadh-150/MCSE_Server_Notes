@@ -1,4 +1,5 @@
 
+# Disable Task manager Group policy
 
 - Open the Group Policy Editor by pressing **Win + R** and typing **gpedit.msc**
 - Navigate to **User Configuration > Administrative Templates > System > Ctrl+Alt+Del Options**
