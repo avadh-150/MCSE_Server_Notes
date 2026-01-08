@@ -49,6 +49,9 @@ To effectively disable and lock down the screen saver, you must configure these 
         
     - The options should be greyed out, and a message should appear stating: _"Some of these settings are hidden or managed by your organization."_
 
+    OR
+
+   - Also you can searchh it like "Screen Saver" like this
 
         <img width="912" height="382" alt="image" src="https://github.com/user-attachments/assets/a7fdd6f1-da39-457d-ac42-f75af1e87aa0" />
 
