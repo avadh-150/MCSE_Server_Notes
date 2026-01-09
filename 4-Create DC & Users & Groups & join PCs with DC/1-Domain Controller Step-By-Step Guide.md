@@ -43,7 +43,7 @@
 ## Step 4: Promote the Server to a Domain Controller
 1. In **Server Manager**, click the **Notification Flag (⚠️)** → choose **Promote this server to a domain controller**.
 
-In Windows Server, an Active Directory Forest is the highest-level container, a logical grouping of one or more domain trees that share a common schema, configuration, and Global Catalog, acting as the ultimate security boundary for the entire directory.
+	 **Active Directory Forest** is the highest-level container, a logical grouping of one or more domain trees that share a common schema, configuration, and Global Catalog, 		   acting as the ultimate security boundary for the entire directory.
 
 2. Select **Add a new forest**.
 3. Enter your **Root domain name** like `iforward.in`.
