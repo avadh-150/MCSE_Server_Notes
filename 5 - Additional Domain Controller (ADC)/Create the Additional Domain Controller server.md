@@ -6,7 +6,9 @@
 
    2. First Change the Name OR Hostname of PC2 
 			REPLACE `PC2 with ADC`
-				Go to and `**search** -> **sysdm.cpl** -> **change**... -> then **HOST_name**`
+				Go to and
+
+	`**search** -> **sysdm.cpl** -> **change**... -> then **HOST_name**`
 ---
 
    2. Open Server Manager.
