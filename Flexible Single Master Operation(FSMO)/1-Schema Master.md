@@ -1,5 +1,4 @@
-
-### 1️⃣ 👑 Schema Master 🧬
+## 1️⃣ 👑 Schema Master 🧬
 
 **What it does**
 
@@ -106,22 +105,41 @@ mmc
 
 1. Open **Active Directory Schema** MMC
     
-2. Right-click **Active Directory Schema**
+2. Right-click **Active Directory Schema [DC.iforward.in]**
     
 3. Select **Change Active Directory Domain Controller**
     
-4. Connect to the target DC
-    
-5. Right-click **Active Directory Schema** again
+4. Choose the ADC (e.g., ADC.forward.in) from the list and click OK.
+   
+	- Note: You will see a warning saying the schema is not connected to the current master. This is normal.
 
-	![image]()
+![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/FSMO-1-DC%20to%20ADC%20schema%20master.png?raw=true)
+
+ then YOU see the Transfer is Successful.. **Active Directory Schema [ADC.iforward.in]**
+
+ <img width="352" height="125" alt="image" src="https://github.com/user-attachments/assets/ce90bafe-6e6d-464b-9379-a068d2adccbe" />
+
+5. Right-click **Active Directory Schema [ADC.iforward.in]** again
 
 6. Select **Operations Master**
-    
+
+	<img width="587" height="619" alt="image" src="https://github.com/user-attachments/assets/077e5500-92b5-4c89-a308-361c03255c5a" />
+
 7. Click **Change**
-    
+
+	<img width="303" height="247" alt="image" src="https://github.com/user-attachments/assets/4f3c9871-e3b0-4544-a797-bc7cc056b2c2" />
+	<img width="303" height="247" alt="image" src="https://github.com/user-attachments/assets/5d8b2ccf-8c33-4406-9246-9b978f2a4b98" />
+	<img width="303" height="247" alt="image" src="https://github.com/user-attachments/assets/21862052-8b12-44fa-b7b5-86b2457b3afc" />
+
+	
 8. Confirm the transfer ✔️
+   
+9. Then you try the:
+    ```
+    Netdom query fsmo
+    ```
     
+	<img width="622" height="145" alt="image" src="https://github.com/user-attachments/assets/83c6d321-ed5c-4451-acc8-059e0819ed23" />
 
 🎉 Schema Master role is now moved successfully
 
