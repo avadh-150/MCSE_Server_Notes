@@ -59,7 +59,9 @@ In this demonstration, two users (`Test1` and `Test2`) were created on the Domai
 
 ### Observation
 
-As shown above, both users share the exact same **Domain SID** (`S-1-5-21-1527770649-690208332-3709767466`), confirming they belong to the same domain. However, their **RIDs** are incremental (`1116` and `1117`), which is the result of the DC pulling unique identifiers from the pool provided by the RID Master.
+* As shown above, both users share the exact same **Domain SID** (`S-1-5-21-1527770649-690208332-3709767466`),confirming they belong to the same domain.
+ 
+ * **RIDs** are incremental (`1116` and `1117`), which is the result of the DC pulling unique identifiers from the pool provided by the RID Master.
 
 ---
 ### Part 1: Transferring the Domain Naming Master Role
