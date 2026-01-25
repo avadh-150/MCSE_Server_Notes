@@ -41,7 +41,9 @@ To transfer the **Domain Naming Master** and **RID Master** FSMO roles to an **A
 OPEN .... **Active Directory Domains and Trusts** console.
 
 1. **Open the Console:** In Server Manager, click **Tools** and select **Active Directory Domains and Trusts**.
-    
+
+![Image](https://camo.githubusercontent.com/b86c2de8336deed9db4627ce9522d4dd97248c59debf300670b9e5e4238b376e/68747470733a2f2f6d696c6f736572646f762e6f72672f77702d636f6e74656e742f75706c6f6164732f323032312f31302f7365727665722d6d616e616765722d6d6d632d6163746976652d6469726563746f72792e706e67)
+	
 2. **Connect to the ADC:**
     
     - Right-click the top-level node (e.g., **Active Directory Domains and Trusts [DC.forward.in]**) and select **Change Active Directory Domain Controller...**.
@@ -71,4 +73,16 @@ After performing the transfers, you can verify the current role holders using th
     - The **Domain naming master** should now be **ADC.forward.in**.
         
     - The **RID pool manager** (RID Master) should now be **ADC.forward.in**.
-        
+
+	
+			C:\Users> netdom query FSMO
+    
+			Schema master      		ADC.iforward.in
+			Domain naming master	ADC.iforward.in
+			PDC						DC.iforward.in
+			RID pool manager		ADC.iforward.in
+			Infrastructure master	DC.iforward.in
+
+    		The command completed successfully.
+      
+			C:\Users>  
