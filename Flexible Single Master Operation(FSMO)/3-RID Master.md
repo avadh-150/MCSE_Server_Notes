@@ -10,8 +10,8 @@
 
 - ensuring every security principal (user, group, computer) it **gets** OR **attaches** a **unique Security Identifier (SID)** when created. 
 
-	-  A domain SID that's the same for all SIDs created in a domain.
-	-  A relative ID (RID) that's unique for each security principal SID created in a domain.
+	1. **Domain SID:** A common identifier shared by all objects within a single domain.
+    2. **Relative ID (RID):** A unique number assigned to each specific object by the DC that created it.
 
 - It manages the global pool of available RIDs, granting blocks to DCs as needed, **preventing SID conflicts**, and handling object moves between domains
     
@@ -33,7 +33,35 @@
 > RID Master down long enough = AD admin nightmare 🔥
 
 ---
+## Lab: Creating Users to Observe RID Assignment
 
+In this demonstration, two users (`Test1` and `Test2`) were created on the Domain Controller (DC) to inspect their unique IDs.
+
+### User 1: Test1
+
+- **Object Name:** Test1
+    
+- **Security Identifier (SID):** `S-1-5-21-1527770649-690208332-3709767466-1116`
+    
+- **RID:** `1116`
+
+	![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Test1%20user%20Obj_ID_number.png?raw=true)
+
+### User 2: Test2
+
+- **Object Name:** Test2
+    
+- **Security Identifier (SID):** `S-1-5-21-1527770649-690208332-3709767466-1117`
+    
+- **RID:** `1117`
+
+	![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Test2%20user%20Obj_ID_number.png?raw=true)
+
+### Observation
+
+As shown above, both users share the exact same **Domain SID** (`S-1-5-21-1527770649-690208332-3709767466`), confirming they belong to the same domain. However, their **RIDs** are incremental (`1116` and `1117`), which is the result of the DC pulling unique identifiers from the pool provided by the RID Master.
+
+---
 ### Part 1: Transferring the Domain Naming Master Role
 
 To transfer the **Domain Naming Master** and **RID Master** FSMO roles to an **Additional Domain Controller (ADC)** . follow this step-by-step :
