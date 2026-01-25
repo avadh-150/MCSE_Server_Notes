@@ -4,7 +4,7 @@
 
 - Controls **adding/removing domains** in the forest
 
-- forest-wide (FSMO) role ==responsible for **managing the addition or removal of domains** and application partitions, ensuring unique namespace across the Active Directory forest==
+- forest-wide (FSMO) role responsible for **managing the addition or removal of domains** and application partitions, ensuring unique namespace across the Active Directory forest
 
 - It ensures **NO Duplication of domain names** across the forest by managing the Partitions container.
     
@@ -73,6 +73,8 @@ To ensure all roles are correctly assigned, you can use the command prompt.
 - Open the Command Prompt and type the following command:
     
     `netdom query fsmo`.
+
+  ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/FSMO-8-Domain%20name%20master.png?raw=true)
     
 - The output should list **ADC.forward.in** (or your specific ADC name) as the current **Domain naming master**.
     
