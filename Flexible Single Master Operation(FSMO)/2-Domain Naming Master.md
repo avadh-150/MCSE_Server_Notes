@@ -55,11 +55,16 @@ Once connected to the ADC, you can initiate the transfer.
 
 The "Operations Master" dialog box will appear, showing the current role holder and the target machine.
 
+  <img width="587" height="619" alt="image" src="https://github.com/user-attachments/assets/077e5500-92b5-4c89-a308-361c03255c5a" />
+
+
 - Verify that the target machine (ADC.forward.in) is listed in the bottom field as the recipient.
-    
+	
 - Click the **Change** button.
 
-	![image](https://www.dtonias.com/wp-content/uploads/2018/01/transfer-fsmo-roles-dc-05.png)
+	<img width="303" height="247" alt="image" src="https://github.com/user-attachments/assets/4f3c9871-e3b0-4544-a797-bc7cc056b2c2" />
+	<img width="303" height="247" alt="image" src="https://github.com/user-attachments/assets/5d8b2ccf-8c33-4406-9246-9b978f2a4b98" />
+	<img width="303" height="247" alt="image" src="https://github.com/user-attachments/assets/21862052-8b12-44fa-b7b5-86b2457b3afc" />
 
 - Confirm the transfer by clicking **Yes** when the confirmation dialog appears.
     
