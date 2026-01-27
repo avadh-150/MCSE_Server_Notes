@@ -103,4 +103,4 @@ If blocked → options greyed out or error appears 😎
 
 # 🎯 GOAL 2 policy (REVERSE)
 
-##### Here the link of GOAL 2 Policy ....... 
+##### Here the link of GOAL 2 Policy [Clikc here](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/Group%20Policy%20on%20Domain%20Controller/Credential%20Manager%20Custom%20Block%20GP/3-Policy%20Scenario%202%20(Block%20all%2C%20allow%20only%20PC1).md)
