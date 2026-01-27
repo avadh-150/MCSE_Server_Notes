@@ -46,4 +46,4 @@ My words✅🔥
 ---
 # 🎯 GOAL 1 of Policy 
 
-##### Here the link of GOAL 1 Policy ....... 
+##### Here the link of GOAL 1 Policy [Like Here](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/Group%20Policy%20on%20Domain%20Controller/Credential%20Manager%20Custom%20Block%20GP/2-Policy%20Scenario%201%20(allow%20all%2C%20block%20only%20PC1).md) 
