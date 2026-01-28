@@ -36,6 +36,8 @@ This section maps a shared folder automatically when users log in.
     **`Mapped Drive`**
     
 4. Click **OK**
+
+    <img width="1493" height="608" alt="image" src="https://github.com/user-attachments/assets/91bc7d4d-580b-4b97-94fe-5111f159c0eb" />
     
 ---
 
@@ -53,6 +55,8 @@ User Configuration
          └── Drive Maps
 ```
 
+![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Group%20Policy/Mapped%20Drive/2-Find%20Mapped%20drive%20New%20drive.png?raw=true)
+
 ---
 
 ### ✅ Step 4: Create the Drive Mapping
@@ -66,12 +70,13 @@ User Configuration
 | ---------------- | ----------- |
 | **Action**       | Create      |
 | **Location**     | `\\DC\data` |
-| **Drive Letter** | D:          |
+| **Drive Letter** | E:          |
 | **Label As**     | Data        |
 
 3. Click **Apply → OK**
     
-
+    ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Group%20Policy/Mapped%20Drive/3-Location%20shared.png?raw=true)
+   
 ---
 
 ### ✅ Step 5: Apply Policy on Client Machine
@@ -83,7 +88,9 @@ gpupdate /force
 ```
 
 🔁 Log out and log back in  
-📂 Open **This PC** → Drive **Z:** should appear
+📂 Open **This PC** → Drive **Data(E):** should appear
+
+![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Group%20Policy/Mapped%20Drive/4-Show%20the%20Drive.png?raw=true)
 
 ---
 
@@ -98,7 +105,8 @@ This ensures users **cannot exceed a defined storage limit**, even if the disk h
 1. Open **Server Manager**
     
 2. Go to **Tools → File Server Resource Manager**
-    
+
+ ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Group%20Policy/Mapped%20Drive/5-FSMR.png?raw=true)
 
 ---
 
@@ -133,7 +141,8 @@ This ensures users **cannot exceed a defined storage limit**, even if the disk h
 4. Choose **100 MB Limit**
     
 5. Click **Create**
-    
+
+ ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Group%20Policy/Mapped%20Drive/6-create%20Queta.png?raw=true)
 
 ---
 
@@ -145,8 +154,9 @@ This ensures users **cannot exceed a defined storage limit**, even if the disk h
     
 - User cannot store more than 100 MB ❌
     
-
 ✔️ Quota works **regardless of actual disk size**
+
+![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Group%20Policy/Mapped%20Drive/7-successfully%20apply%20quota.png?raw=true)
 
 ---
 
