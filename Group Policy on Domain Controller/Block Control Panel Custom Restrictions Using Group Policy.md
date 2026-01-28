@@ -29,8 +29,7 @@ Policy scope: **User Configuration**
     
 
 ```
-Control Panel Restrictions
-```
+Block Specific Items in Control Panel```
 
 Bad names cause confusion later. Be explicit. 🧠
 
@@ -83,6 +82,8 @@ Microsoft.AutoPlay
 Microsoft.UserAccount
 Microsoft.DeviceManager
 ```
+
+![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Group%20Policy/Controp%20Panel%20Custom%20GP/1-Show.png?raw=true)
 
 ## 🚫 Control Panel Items – Restriction Reference Table
 
@@ -153,8 +154,18 @@ Then:
     
 	(**Select * from Win32_ComputerSystem where DomainRole < 4)**
 
-6. WHERE Version LIKE "10.0%" AND ProductType="1"
+![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Group%20Policy/Controp%20Panel%20Custom%20GP/2-WMI%20Filter.png?raw=true)
+
+![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Group%20Policy/Controp%20Panel%20Custom%20GP/3-WMI%20setting.png?raw=true)
+
+6. Click **OK**
     
-7. Click **OK**
-    
-8. Click **Save**
+7. Click **Save**
+
+---
+### Apply the WMI Filter
+1. Go to GPO of `Block Specific Items in Control Panel`
+
+2. Look at the Bottom at **WMI Filter**....
+
+![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Group%20Policy/Controp%20Panel%20Custom%20GP/4-WMI%20Successfully%20apply.png?raw=true)
