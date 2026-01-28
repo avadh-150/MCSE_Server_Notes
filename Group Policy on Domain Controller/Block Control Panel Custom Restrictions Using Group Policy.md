@@ -29,7 +29,8 @@ Policy scope: **User Configuration**
     
 
 ```
-Block Specific Items in Control Panel```
+Block Specific Items in Control Panel
+```
 
 Bad names cause confusion later. Be explicit. 🧠
 
