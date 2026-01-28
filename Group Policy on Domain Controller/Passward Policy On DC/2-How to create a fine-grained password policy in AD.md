@@ -11,6 +11,8 @@
 1️⃣ Open **Server Manager**  
 2️⃣ Go to **Tools** → **Active Directory Administrative Center**
 
+  ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Group%20Policy/Fine-Grained%20Password%20Policy/1-FGPP.png?raw=true)
+
 ---
 
 ### 🗂 Step 2: Navigate to Password Settings Container
@@ -19,12 +21,15 @@
 4️⃣ Select **System**  
 5️⃣ Open **Password Settings Container**
 
+  ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Group%20Policy/Fine-Grained%20Password%20Policy/2-fgpp.png?raw=true)
+
 ---
 
 ### ➕ Step 3: Create a New Password Policy
 
 6️⃣ Click **New** → **Password Settings**
-![image](https://specopssoft.com/wp-content/uploads/2018/03/Password-settings-new.png)
+
+<img width="452" height="238" alt="image" src="https://github.com/user-attachments/assets/c409eaa9-54bc-404d-8ecd-76183150b6fa" />
 
 ---
 ### ⚙️ Step 4: Configure Password Settings (PSO)
@@ -40,6 +45,8 @@
 | 🔐 **Password complexity**      | Enabled       | Mandatory                      |
 | 🔒 **Reversible encryption**    | Disabled      | Always                         |
 
+![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Group%20Policy/Fine-Grained%20Password%20Policy/3-Fine-Grained%20Password%20Policy.png?raw=true)
+
 ---
 
 ### 🎯 Step 5: Assign the Policy
@@ -51,8 +58,10 @@
     
 - 👥 Global Security Groups  
     9️⃣ Click **OK** → **Create**
-    
 
+    ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Group%20Policy/Fine-Grained%20Password%20Policy/4-ADD.png?raw=true)
+
+    ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Group%20Policy/Fine-Grained%20Password%20Policy/5-Success.png?raw=true)
 ---
 
 ## 🚀 Step 6: Force Policy Update (Optional)
@@ -86,6 +95,7 @@ Minimum password length
     
 - Click **Reset Password**
     
+![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Group%20Policy/Fine-Grained%20Password%20Policy/6-userboss.png?raw=true)
 
 ⚠️ You’ll see a security warning — that’s normal.  
 Click **Proceed**
@@ -107,6 +117,8 @@ Optional (but important):
 
 Click **OK**
 
+![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Group%20Policy/Fine-Grained%20Password%20Policy/7-reset_pass.png?raw=true)
+
 ---
 
 ### 5️⃣ Confirm Success ✅
@@ -116,3 +128,7 @@ You’ll see:
 > _The password for <username> has been reset._
 
 That’s it. No reboot. No gpupdate. .
+
+![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Group%20Policy/Fine-Grained%20Password%20Policy/8-done.png?raw=true)
+
+---
