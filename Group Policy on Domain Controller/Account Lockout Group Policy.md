@@ -82,3 +82,34 @@ The following steps provide in Below:
 3. The user should now log in successfully without the lockout message appearing.
     
 	![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Login%20is%20Done.png?raw=true)
+
+---
+Based on the provided image and the procedure from the video, here is how you can track an account lockout event in the Windows **Event Viewer** 🖥️🔐:
+
+### 🛠️ Step 1: Open the Event Viewer
+
+* On the **Domain Controller** (DC), click the **Start** button and type **"Event Viewer"** to open the application 🔍.
+* In the left-hand pane, expand the **Windows Logs** folder.
+* Select the **Security** log to view all security-related events.
+
+### 🕵️‍♂️ Step 2: Locate the Lockout Event
+
+* Look for **Event ID 4740** in the "Event ID" column.
+* This specific ID indicates that **"A user account was locked out"**.
+* Check the **Date and Time** column to find the exact moment the lockout occurred (e.g., **1/28/2026 10:31:26 AM** as seen in the log).
+
+### 📝 Step 3: Analyze the Details
+
+* Click on the event to see the **General** tab information.
+* Confirm the **Source** is "Microsoft Windows security auditing" and the **Task Category** is "User Account Management".
+* The **Computer** field will show which machine reported the lockout (e.g., **dc.forward.in**).
+
+### 💡 Pro-Tip: Finding it Faster
+
+* If you have thousands of events, use the **Filter Current Log...** option in the right-hand **Actions** pane.
+* Type **4740** in the "Includes/Excludes Event IDs" box to hide everything else and only show account lockouts 🎯.
+
+![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Account%20LogOut%20Event%20Viewer.png?raw=true)
+
+---
+
