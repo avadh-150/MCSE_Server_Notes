@@ -13,6 +13,8 @@
     
 - Using `C:\software` works **only if that folder exists on every PC**
 
+    ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Custom%20Screen_Saver%20GP/1-softward-$%20folder.png?raw=true)
+
 ---
 
 ## 🔹 PHASE 1: Prepare the Screensaver File (MOST IMPORTANT)
@@ -76,9 +78,10 @@ If even one PC doesn’t have it → screensaver won’t load 😤
 3. Name it:
     
     ```
-    Matrix_Screensaver_Policy
+    Matrix_Screensaver_Deployment_Policy
     ```
     
+    ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Custom%20Screen_Saver%20GP/2-GPO.png?raw=true)
 
 ---
 
@@ -94,6 +97,8 @@ User Configuration
 → Personalization
 ```
 
+   ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Custom%20Screen_Saver%20GP/3-location.png?raw=true)
+
 If you configure this under **Computer Configuration**, it will NOT work 🚫
 
 ---
@@ -108,6 +113,7 @@ If you configure this under **Computer Configuration**, it will NOT work 🚫
     
 - Click **OK**
     
+   ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Custom%20Screen_Saver%20GP/4-enbled%20.png?raw=true)
 
 📌 Without this, nothing else matters ❌
 
@@ -120,19 +126,16 @@ If you configure this under **Computer Configuration**, it will NOT work 🚫
 - Set to: **Enabled**
     
 - Path:
+     
+  (better):
     
     ```
-    C:\software\matrix.scr
-    ```
-    
-    OR (better):
-    
-    ```
-    \\DC\Software\matrix.scr
+    \\DC\Software$\matrix.scr
     ```
     
 - Click **OK**
-    
+
+    ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Custom%20Screen_Saver%20GP/5-specific%20saver%20load.png?raw=true)
 
 ⚠️ Path must be **identical on every client**
 
@@ -163,6 +166,7 @@ If you configure this under **Computer Configuration**, it will NOT work 🚫
         
     - `15` → testing only
         
+    ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Custom%20Screen_Saver%20GP/6-timeout.png?raw=true)
 
 ⏱️ Value is in **seconds**, not minutes (people screw this up a lot)
 
@@ -178,53 +182,15 @@ gpupdate /force
 
 Then either:
 
-- Wait for timeout ⏳  
+- Wait for timeout ⏳      - `15` → Seconds
+
     OR
     
 - Press `Win + L` (lock screen) 🔒
-    
 
+    ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Custom%20Screen_Saver%20GP/8.png?raw=true)
+    
 👉 After inactivity, **Matrix screensaver should appear** 🟩💻
 
 ---
 
-## ❌ COMMON MISTAKES (Be Honest)
-
-❌ `.scr` file not present on client  
-❌ GPO linked to Computer OU  
-❌ Using local path that doesn’t exist  
-❌ Expecting GPO to copy files  
-❌ Forgetting timeout is in seconds
-
-Any ONE of these = failure 😐
-
----
-
-## 🧠 FINAL VERDICT (Straight Talk)
-
-Your original write-up:
-
-- ✅ Accurate
-    
-- ❌ Not admin-proof
-    
-- ❌ Misses the **file distribution problem**
-    
-
-This version:
-
-- Explains **why**
-    
-- Prevents silent failure
-    
-- Works in exams + labs + real environments 💯🔥
-    
-
----
-
-If you want next:  
-🔥 Auto-copy `.scr` using **GPO Preferences**  
-🔥 Force screensaver **non-disableable**  
-🔥 Remove Control Panel access so users can’t change it
-
-Say the word 😎💣
