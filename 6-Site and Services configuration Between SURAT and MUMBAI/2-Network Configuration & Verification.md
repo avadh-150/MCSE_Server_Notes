@@ -6,8 +6,12 @@
 ### 🎯 Goal (Understand This First)
 
 - **DC** and **PC1** are on **192.168.20.0/24**
+
+    ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/SIte%20to%20services/IP%20SETTING/4-vm%20DC.png?raw=true)
     
 - **PC2** is on a **different subnet (172.16.1.0/24)**
+
+    ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/SIte%20to%20services/IP%20SETTING/5-vm%20adc.png?raw=true)
     
 - **All machines use the DC as DNS**
     
@@ -34,7 +38,8 @@
     - **Default Gateway:** `192.168.20.1`
         
     - **Preferred DNS:** `192.168.20.10` (itself)
-        
+
+        ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/SIte%20to%20services/IP%20SETTING/1-Assign%20ip%20to%20DC.png?raw=true)
 
 ✅ DC must always point to **itself as DNS**.  
 If you mess this up, AD breaks. Period. 💥
@@ -60,7 +65,8 @@ If you mess this up, AD breaks. Period. 💥
     - **Default Gateway:** `192.168.20.1`
         
     - **Preferred DNS:** `192.168.20.10` (DC)
-        
+
+        ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/SIte%20to%20services/IP%20SETTING/2-Assign%20IP%20to%20PC1.png?raw=true)
 
 ✅ This is **correct AD client configuration**  
 ❌ Never point DNS to Google or router in a domain. Ever. 🚫
@@ -86,7 +92,8 @@ If you mess this up, AD breaks. Period. 💥
     - **Default Gateway:** `172.16.1.1`
         
     - **Preferred DNS:** `192.168.20.10` (DC)
-        
+
+        ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/SIte%20to%20services/IP%20SETTING/3-IP%20ON%20PC2.png?raw=true)
 
 ⚠️ **Important Warning :**  PC2 is NOW ADC OR create the PC2 as a ADC... 
 
