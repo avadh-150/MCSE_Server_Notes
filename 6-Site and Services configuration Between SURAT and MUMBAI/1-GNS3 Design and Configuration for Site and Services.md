@@ -1,5 +1,9 @@
 
 ---
+# GNS3 Design and Configuration for Site and Services
+
+![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/SIte%20to%20services/1-GNS3%20IMAGE.png?raw=true)
+---
 
 ## 🔹 R1 – **MUMBAI Edge Router (NAT + LAN + OSPF)** 🌆🌐
 
