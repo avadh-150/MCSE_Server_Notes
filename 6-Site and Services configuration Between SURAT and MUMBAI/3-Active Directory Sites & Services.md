@@ -202,6 +202,8 @@ This is what you are implementing. Nothing else. ❌
   ↳ Subnet: `172.16.1.0/24`  
   ↳ ADC placed inside
 
+   ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/SIte%20to%20services/2-site%20and%20services.png?raw=true) 
+
 ✔ No DC left in **Default-First-Site-Name** (except lab leftovers)
 
 ---
@@ -237,6 +239,8 @@ Configure:
         
 
 Click **OK**
+
+   ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/SIte%20to%20services/4-Create%20the%20site%20link.png?raw=true)
 
 ⚠️ Don’t blindly lower cost everywhere.  
 You’ll flood WAN links and regret it.
