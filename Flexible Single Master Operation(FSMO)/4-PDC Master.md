@@ -71,19 +71,6 @@ If PDC is slow → GPO changes lag or fail 😬
     
 - External trust coordination
     
-
----
-
-## 📌 Key Facts (burn into memory)
-
-- 🏢 **Domain-level FSMO**
-    
-- 🏢 ONE per domain
-    
-- 🏢 Highest operational impact
-    
-- 🏢 Should be on **best hardware DC**
-    
 ---
 
 ## ⚠️ Placement & Best Practices (ignore = pain)
@@ -102,14 +89,6 @@ If PDC is slow → GPO changes lag or fail 😬
 - Reliable disk
     
 - Stable network
-
----
-
-## 🛠️ Check PDC Emulator holder
-
-```powershell
-netdom query fsmo
-```
 
 ---
 ## 🧠 Interview Kill Question 💀
@@ -187,7 +166,9 @@ In **ADUC**:
 - Select **ADC**
     
 - Click **OK**
-    
+
+	![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/FSMO/1-RID.png?raw=true)
+
 
 ⚠️ This step proves DC is alive → transfer is allowed ✅
 
@@ -198,7 +179,9 @@ In **ADUC**:
 - Right-click **Active Directory Users and Computers [ADC.iforward.in]**
     
 - Click **Operations Masters**
-    
+
+	![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/FSMO/2-RID%20transfer.png?raw=true)
+
 
 A 3-tab window opens 👇  
 **RID | PDC | Infrastructure**
@@ -218,7 +201,8 @@ A 3-tab window opens 👇
 - Click **Change**
     
 - Click **Yes** to confirm
-    
+
+	![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/FSMO/4-PCD.png?raw=true)
 
 💥 BOOM — PDC role is transferred to **ADC**
 
@@ -242,29 +226,18 @@ Do NOT proceed blindly.
 On **any DC**:
 
 
-```powershell
-
-			C:\Users> netdom query FSMO
+```
+C:\Users> netdom query FSMO
     
-			Schema master      			ADC.iforward.in
-			Domain naming master		ADC.iforward.in
-			PDC							DC.iforward.in
-			RID pool manager			ADC.iforward.in
-			Infrastructure master		DC.iforward.in
+Schema master      			ADC.iforward.in
+Domain naming master		ADC.iforward.in
+PDC							ADC.iforward.in
+RID pool manager			ADC.iforward.in
+Infrastructure master		DC.iforward.in
 
-    		The command completed successfully.
-      
-			C:\Users>  
+The command completed successfully.     
+C:\Users>  
 ```
-
-
-Expected output:
-
-```
-PDC Emulator : ADC.iforward.in
-```
-
-No verification = sloppy admin 😡
 
 ---
 
