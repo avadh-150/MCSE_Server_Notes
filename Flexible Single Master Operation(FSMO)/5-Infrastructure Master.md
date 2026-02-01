@@ -100,38 +100,6 @@ Without it → ghost users in groups 👻💀
 
 ---
 
-## 🚨 What happens if Infrastructure Master fails?
-
-Here’s the truth:
-
-✅ Logins still work  
-✅ GPO still works  
-✅ Users don’t scream immediately
-
-❌ Group memberships show outdated users  
-❌ ACLs contain invalid SIDs  
-❌ Cross-domain references rot over time
-
-This is **logical corruption**, not instant outage — which is worse 😬
-
----
-
-## 🛠️ How to check Infrastructure Master
-
-```powershell
-netdom query fsmo
-```
-
-or
-
-```powershell
-Get-ADDomain | Select InfrastructureMaster
-```
-
-If you can’t check this quickly, you’re not ready for multi-domain AD ❌
-
----
-
 ## 🧠 Interview Reality Check 💥
 
 **Q:** When does Infrastructure Master matter?
@@ -182,7 +150,9 @@ This is where people mess up 😬
 3. Select **ADC**
     
 4. Click **OK**
-    
+
+	![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/FSMO/1-RID.png?raw=true)
+
 
 👉 If you don’t do this, the role will NOT move.
 
@@ -194,6 +164,7 @@ This is where people mess up 😬
     
 2. Click **Operations Masters**
     
+	![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/FSMO/2-RID%20transfer.png?raw=true)
 
 A new window opens 🪟
 
@@ -209,6 +180,7 @@ A new window opens 🪟
         
     - Target server = **ADC**
         
+		![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/FSMO/5-INFA.png?raw=true)
 
 If ADC name is NOT visible → you didn’t connect to ADC ❌
 
@@ -231,26 +203,21 @@ That’s the transfer. Clean. Safe. Done. 🧠🔥
 
 Run on any DC:
 
-```powershell
-
-			C:\Users> netdom query FSMO
+```
+C:\Users> netdom query FSMO
     
-			Schema master      			ADC.iforward.in
-			Domain naming master		ADC.iforward.in
-			PDC							DC.iforward.in
-			RID pool manager			ADC.iforward.in
-			Infrastructure master		DC.iforward.in
+Schema master      			ADC.iforward.in
+Domain naming master		ADC.iforward.in
+PDC							DC.iforward.in
+RID pool manager			ADC.iforward.in
+Infrastructure master		ADC.iforward.in
 
-    		The command completed successfully.
+The command completed successfully.
       
-			C:\Users>  
+C:\Users>  
 ```
 
-You must see:
 
-```
-Infrastructure Master = ADC
-```
 
 If not → something went wrong ❌
 
