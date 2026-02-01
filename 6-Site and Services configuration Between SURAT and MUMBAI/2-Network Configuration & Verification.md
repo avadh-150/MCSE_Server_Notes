@@ -1,4 +1,3 @@
-
 ---
 
 # 🧠 Network Configuration & Verification (Clean + Understandable)
