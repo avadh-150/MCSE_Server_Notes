@@ -122,9 +122,17 @@ quit
 ## 🔍 Verify FSMO Roles (MANDATORY ✅)
 
 If you don’t verify, you’re careless.
-
-```cmd
-netdom query fsmo
 ```
+C:\Users> netdom query FSMO
+    
+Schema master      			DC.iforward.in
+Domain naming master		DC.iforward.in
+PDC							DC.iforward.in
+RID pool manager			DC.iforward.in
+Infrastructure master		DC.iforward.in
 
+The command completed successfully.
+      
+C:\Users>  
+```
 You should see **all roles owned by the new DC**.
