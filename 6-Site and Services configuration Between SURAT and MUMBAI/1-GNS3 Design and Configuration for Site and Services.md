@@ -1,4 +1,3 @@
-
 ---
 # GNS3 Design and Configuration for Site and Services
 
