@@ -36,8 +36,9 @@ Configure a **Child Domain Controller** and verify **user authentication and net
     
 2. Use the credentials:
     
-    - **Username:** [administrator@uk.iforward.in](mailto:administrator@uk.iforward.in)
-
+    - **Username:** `administrator@uk.iforward.in`
+   
+	![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Child%20domain%20creation/Config_og%20Child%20domain/1-login%20screen%20.png?raw=true)
 
 ---
 
@@ -60,7 +61,9 @@ Configure a **Child Domain Controller** and verify **user authentication and net
     - **First Name:** jeson
         
     - **User Logon Name:** jeson
-        
+
+	![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Child%20domain%20creation/Config_og%20Child%20domain/2-user%20at%20child%20domain.png?raw=true)
+	
 5. Click **Next**
     
 6. Set password and configure options:
@@ -70,8 +73,7 @@ Configure a **Child Domain Controller** and verify **user authentication and net
     - ✅ Password never expires
         
 7. Click **Next → Finish**
-    
-
+   
 ✔️ **User account successfully created**
 
 ---
@@ -81,7 +83,8 @@ Configure a **Child Domain Controller** and verify **user authentication and net
 1. Open **DNS Manager**
     
     - Run: `dnsmgmt.msc`
-        
+
+	
 2. Right-click **UKDC** → **Properties**
     
 3. Open **Forwarders** tab
@@ -91,12 +94,15 @@ Configure a **Child Domain Controller** and verify **user authentication and net
     ```
     10.10.11.10
     ```
-    
+   ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Child%20domain%20creation/Config_og%20Child%20domain/4-dns%20forwarder.png?raw=true)
+
 5. Navigate to:
     
     ```
     Forward Lookup Zones → uk.iforward.in
     ```
+    
+	![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Child%20domain%20creation/Config_og%20Child%20domain/3-dns%20on%20uk.png?raw=true)
     
 6. Verify host records:
     
@@ -108,6 +114,7 @@ Configure a **Child Domain Controller** and verify **user authentication and net
         
 7. DNS on Dc like **DNS Delegation**
 
+	![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Child%20domain%20creation/Config_og%20Child%20domain/5-dns%20on%20dc.png?raw=true)
 
 ✔️ **DNS resolution confirmed**
 
@@ -118,7 +125,9 @@ Configure a **Child Domain Controller** and verify **user authentication and net
 ####  On (UKDC) [uk.iforward.in] Child domain
 	
 1. Open **Active Directory Domains and Trusts** 
-    
+
+	![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Child%20domain%20creation/Config_og%20Child%20domain/6-trust.png?raw=true)
+	
 2. Right-click **uk.iforward.in** → **Properties**
     
 3. Open **Trusts** tab
@@ -130,7 +139,9 @@ Configure a **Child Domain Controller** and verify **user authentication and net
     - **Incoming Trust:** Present
         
     - **Outgoing Trust:** Present
-        
+
+		![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Child%20domain%20creation/Config_og%20Child%20domain/7-uk.png?raw=true)
+	
 #### On DC [iforward.in] Parent (Root) domain
 
 1. Open **Active Directory Domains and Trusts** 
@@ -147,6 +158,8 @@ Configure a **Child Domain Controller** and verify **user authentication and net
         
     - **Outgoing Trust:** Child
 
+		![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Child%20domain%20creation/Config_og%20Child%20domain/Screenshot%20from%202026-02-02%2022-09-05.png?raw=true)
+	
 
 ✔️ **Parent–Child trust verified**
 
@@ -169,7 +182,8 @@ Configure a **Child Domain Controller** and verify **user authentication and net
     ```
     
 4. Wait for first-time profile setup
-    
+
+	![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Child%20domain%20creation/Config_og%20Child%20domain/9-jeson.png?raw=true)
 
 ✔️ **Domain login successful**
 
@@ -190,6 +204,8 @@ Configure a **Child Domain Controller** and verify **user authentication and net
     ```
     uk\jeson
     ```
+
+	![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Child%20domain%20creation/Config_og%20Child%20domain/10-whoami.png?raw=true)
     
 
 ✔️ **User authenticated from child domain**
