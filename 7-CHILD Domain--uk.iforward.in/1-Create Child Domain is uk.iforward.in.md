@@ -23,7 +23,7 @@
 
 ### 🔹 Step 1: Creating User `Tom`  on DC
 
-
+  ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Child%20domain%20creation/create%20the%20Child%20DOmain%20Add%20role/1-user%20create.png?raw=true)
 
 ---
 
@@ -136,6 +136,8 @@ uk.iforward.in
 
 Click **Next**
 
+  ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Child%20domain%20creation/create%20the%20Child%20DOmain%20Add%20role/2-Promot%20roles%20uk.png?raw=true)
+
 ---
 
 ### 🔹 Step 7: Domain Controller Options
@@ -155,6 +157,8 @@ DSRM Password: (Strong password)
 ```
 
 Click **Next**
+
+  ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Child%20domain%20creation/create%20the%20Child%20DOmain%20Add%20role/3-pass.png?raw=true)
 
 ---
 
@@ -194,6 +198,8 @@ Without delegation:
 
 Click **Next**
 
+  ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Child%20domain%20creation/create%20the%20Child%20DOmain%20Add%20role/4-DNS.png?raw=true)
+
 ---
 
 ### 🔹 Step 9: NetBIOS Name
@@ -232,6 +238,8 @@ Child:  uk.iforward.in
 ```
 
 Click **Next**
+
+ ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Child%20domain%20creation/create%20the%20Child%20DOmain%20Add%20role/5-finish.png?raw=true)
 
 ---
 
