@@ -106,6 +106,9 @@ To configure a **Secondary DNS Zone** on a Domain Controller and verify successf
 3. Launch New Zone Wizard
     
     - Right-click **Forward Lookup Zones** → **New Zone…**
+
+		![image](https://www.easy365manager.com/wp-content/uploads/StubZone_01.png)
+
         
 4. Wizard – Welcome Screen
     
@@ -128,6 +131,8 @@ To configure a **Secondary DNS Zone** on a Domain Controller and verify successf
     - Enter: `uk.iforward.in`
         
     - Click **Next**
+	  
+	  ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Zones/secondary%20zone/1-uk.iforward.in.png?raw=true)
         
 7. Master DNS Server Configuration
     
@@ -138,17 +143,22 @@ To configure a **Secondary DNS Zone** on a Domain Controller and verify successf
     - ✅ Green checkmark confirms validation
         
     - Click **Next**
-        
+
+		![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Zones/secondary%20zone/2-ip%20.png?raw=true)
+		
 8. Finish Wizard
     
     - Review summary
         
     - Click **Finish**
-        
+
+		![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Zones/secondary%20zone/3-finish.png?raw=true)
 
 ✅ **Expected Result:**  
-`sk.Armand.in` appears under **Forward Lookup Zones** with a **read-only** icon.
+`uk.ifoeward.in` appears under **Forward Lookup Zones** with a **read-only** icon.
 
+  ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Zones/secondary%20zone/4-verify.png?raw=true)
+	
 ---
 
 ## **Phase 2: Add DNS Record on Master Server (Primary Zone)** 🧩
@@ -176,14 +186,17 @@ To configure a **Secondary DNS Zone** on a Domain Controller and verify successf
     - Click **Add Host**
         
     - Click **OK** → **Done**
-        
+
+		![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Zones/secondary%20zone/5-vS.png?raw=true)
+		
 6. Refresh Zone
     
     - Right-click `uk.iforward.in` → **Refresh**
-        
 
 ✅ **Expected Result:**  
 The `youtube` A-record is visible on the **Master DNS server**.
+
+  ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Zones/secondary%20zone/Screenshot%20from%202026-02-03%2022-13-45.png?raw=true)
 
 ---
 
@@ -203,9 +216,11 @@ The `youtube` A-record is visible on the **Master DNS server**.
         
 4. Force Zone Transfer
     
-    - Right-click `sk.Armand.in` → **Transfer from Master**
+    - Right-click `sk.Armand.in` → **Transfer New Copy of Zone from Master**
         
     - Click **Yes** when prompted
+  
+      ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Zones/secondary%20zone/6-finish.png?raw=true)
         
 5. Refresh Zone
     
