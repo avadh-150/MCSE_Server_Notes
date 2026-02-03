@@ -35,7 +35,8 @@ On **Master DNS (10.10.11.15 – tree.com)**:
 2. Right-click `uk.iforward.in` → **Properties**
     
 3. Go to **Zone Transfers**
-    
+
+	
 4. ✅ Check **Allow zone transfers**
     
 5. ✅ Select **Only to the following servers**
@@ -44,6 +45,7 @@ On **Master DNS (10.10.11.15 – tree.com)**:
     
 7. Apply ✔️
     
+	![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Zones/stub%20Zone/1-zone%20tra.png?raw=true)
 
 Also ensure:
 
@@ -80,18 +82,25 @@ Also ensure:
 	![image](https://1.bp.blogspot.com/-KqDArhNr_kE/Xbp2QoaJb_I/AAAAAAAABAY/lxwjdUxrWeM7O1x5k8vmkNsTbOi8IHEXgCEwYBhgL/s1600/8_choose_replication_scope.png)
 
 7. Zone Name → `tree.com` → Next
-    
+
+	![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Zones/stub%20Zone/2-tree.com.png?raw=true)
+	
 8. Master DNS Server → `10.10.11.15`
+	
+	![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Zones/stub%20Zone/3-ip%20ukdc.png?raw=true)
     
 9. Next → **Finish**
     
+	![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Zones/stub%20Zone/4-finish.png?raw=true)
 
 ---
 
 ## 🔄 Verify Stub Zone (NON-NEGOTIABLE)
 
 1. Expand `tree.com`
-    
+
+	![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/Zones/stub%20Zone/5-tree.png?raw=true)
+	
 2. You MUST see:
     
     - SOA
