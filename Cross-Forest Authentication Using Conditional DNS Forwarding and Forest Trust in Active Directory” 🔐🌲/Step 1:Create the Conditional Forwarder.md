@@ -65,7 +65,8 @@ If this isn’t done → stop here 😐
 2. Right-click **Conditional Forwarders**
     
 3. Click **New Conditional Forwarder…**
-    
+
+![image](https://www.readandexecute.com/wp-content/uploads/2018/05/2018-04-29-13_43_56-DNS-Manager.png)
 
 ---
 
@@ -107,27 +108,7 @@ Choose:
 
 Click **OK**
 
----
-
-## ✅ Verification (If You Skip This, You’re Guessing)
-
-### 🔍 Test DNS Resolution
-
-Run on iforward.in DC:
-
-```
-nslookup dc1.abc.com
-```
-
-or
-
-```
-nslookup abc.com
-```
-
-Expected:  
-✔ Response from **10.10.11.20**  
-✔ No timeout
+ ![Image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/04-02-DNS%20and%20Trust%20connect%202%20frests/Conditional%20Forwarder/1.png?raw=true)  
 
 ---
 
@@ -138,6 +119,9 @@ In DNS Manager:
 - Conditional Forwarders
     
 - You should see **abc.com → 10.10.11.20**
+
+ ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/04-02-DNS%20and%20Trust%20connect%202%20frests/Conditional%20Forwarder/2.png?raw=true)
+
 
 ---
 ## 🎯 Scenario (Lock This In Your Head)
@@ -163,7 +147,9 @@ In DNS Manager:
 2. Right-click **Conditional Forwarders**
     
 3. Click **New Conditional Forwarder…**
-    
+
+    ![image](https://www.readandexecute.com/wp-content/uploads/2018/05/2018-04-29-13_43_56-DNS-Manager.png)
+
 
 ---
 
@@ -200,6 +186,20 @@ Why?
 
 Click **OK**
 
+![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/04-02-DNS%20and%20Trust%20connect%202%20frests/Conditional%20Forwarder/4.png?raw=true)
+
+---
+
+### 🔍 Check Conditional Forwarder Exists
+
+In DNS Manager:
+
+- Conditional Forwarders
+    
+- You should see **iforward.com → 10.10.11.10**
+
+![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/04-02-DNS%20and%20Trust%20connect%202%20frests/Conditional%20Forwarder/5.png?raw=true)
+
 ---
 
 ## ✅ Verification (Don’t Guess — TEST)
@@ -213,6 +213,7 @@ ping dc.iforward.in
 OR
 nslookup dc.iforward.in
 ```
+![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/04-02-DNS%20and%20Trust%20connect%202%20frests/Conditional%20Forwarder/6.png?raw=true)
 
 Run: On iforward.in PC
 
@@ -222,7 +223,6 @@ OR
 Ping abc.com
 ```
 
-Expected result:
-
+![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/04-02-DNS%20and%20Trust%20connect%202%20frests/Conditional%20Forwarder/7.png?raw=true)
 
 ---
