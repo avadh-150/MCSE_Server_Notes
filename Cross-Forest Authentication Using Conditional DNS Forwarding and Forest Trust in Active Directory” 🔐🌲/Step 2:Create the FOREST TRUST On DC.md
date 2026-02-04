@@ -60,6 +60,8 @@ Right-click **iforward.in**
 
 Click **Next** ▶️
 
+  ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/04-02-DNS%20and%20Trust%20connect%202%20frests/Create%20the%20FOREST-ROOT%20TRUST/1.png?raw=true)
+
 ---
 
 ### 🟢 STEP 2: Trust Name
@@ -72,6 +74,8 @@ abc.com
 
 ⚠️ Use **FQDN**, not NetBIOS.  
 Click **Next**
+
+![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/04-02-DNS%20and%20Trust%20connect%202%20frests/Create%20the%20FOREST-ROOT%20TRUST/2.png?raw=true)
 
 ---
 
@@ -137,6 +141,8 @@ Same question, opposite direction.
 
 Click **Next**
 
+  ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/04-02-DNS%20and%20Trust%20connect%202%20frests/Create%20the%20FOREST-ROOT%20TRUST/3-Authenticate.png?raw=true)
+
 ---
 
 ### 🟢 STEP 7: Authentication – Local Forest (IMPORTANT)
@@ -166,8 +172,10 @@ Click **Next**
 
 👉  The questions are the same here to allow you to select Forest Wide or Selective Authentication, from the remote forest to the local forest.
 
-
 Click **Next** 
+
+  ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/04-02-DNS%20and%20Trust%20connect%202%20frests/Create%20the%20FOREST-ROOT%20TRUST/4-specific-level.png?raw=true)
+
 
 ---
 ### 🟢 STEP 9: Review & Create
@@ -181,8 +189,10 @@ You’ll see a **summary screen**
     
 - Authentication: Forest-wide
     
-
 Click **Next** → Trust gets created 🛠️
+
+  ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/04-02-DNS%20and%20Trust%20connect%202%20frests/Create%20the%20FOREST-ROOT%20TRUST/5-final.png?raw=true)
+
 
 ---
 ### 🟢 STEP 10: Confirm the Trust (DO NOT SKIP)
@@ -191,8 +201,13 @@ You will be asked:
 
 ✔ Confirm outgoing trust? → **YES** 
 
+  ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/04-02-DNS%20and%20Trust%20connect%202%20frests/Create%20the%20FOREST-ROOT%20TRUST/6-yes.png?raw=true)
+
 
 ✔ Confirm incoming trust? → **YES**
+
+  ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/04-02-DNS%20and%20Trust%20connect%202%20frests/Create%20the%20FOREST-ROOT%20TRUST/7-yesy.png?raw=true)
+
 
 If confirmation fails → DNS or time is broken. No excuses 🧨
 
@@ -206,14 +221,16 @@ Back in **Trusts tab**, you should see ON DC of **[iforward.in]:**
 ✔ Type: **Forest**  
 ✔ Direction: **Two-way**
 
+  ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/04-02-DNS%20and%20Trust%20connect%202%20frests/Create%20the%20FOREST-ROOT%20TRUST/9.png?raw=true)
+
 
 Back in **Trusts tab**, you should see ON dc of **[abc.in]:**
 
 ✔ `iforward.com`  
 ✔ Type: **Forest**  
 ✔ Direction: **Two-way**
-
-
+  
+   ![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/04-02-DNS%20and%20Trust%20connect%202%20frests/Create%20the%20FOREST-ROOT%20TRUST/Abc.com_Trust_iforward.in.png?raw=true)
 
 ---
 
