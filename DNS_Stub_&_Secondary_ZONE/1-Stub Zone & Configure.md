@@ -114,6 +114,8 @@ Also ensure:
 
 💀 **No records = no delegation = fail**
 
+  ![image](https://1.bp.blogspot.com/-LDH9qmUPcg4/Xbp2ONRACsI/AAAAAAAABAk/gLJHndzh4jgZ10LwxFetOc4UarNoGlX0gCEwYBhgL/s1600/14_confirm_zone_transfer.png)
+
 
 ---
 
