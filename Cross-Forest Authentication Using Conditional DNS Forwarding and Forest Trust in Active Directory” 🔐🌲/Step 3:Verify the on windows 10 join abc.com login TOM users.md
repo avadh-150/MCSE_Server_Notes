@@ -58,6 +58,9 @@ abc.com
 ✔ You should see:  
 **“Welcome to the abc.com domain”**
 
+![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/04-02-DNS%20and%20Trust%20connect%202%20frests/Create%20the%20FOREST-ROOT%20TRUST/abc.cpom.png?raw=true)
+
+
 6️⃣ Restart the PC 🔁
 
 If this fails → DNS or firewall is broken. Period. 🧨
@@ -76,6 +79,8 @@ tom@iforward.in
 
 Enter **tom’s password**  
 Login 🚀
+
+![image](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/04-02-DNS%20and%20Trust%20connect%202%20frests/Create%20the%20FOREST-ROOT%20TRUST/win%2010%20login%2010.png?raw=true)
 
 If trust + DNS are right → login works.  
 If not → Kerberos ticket request fails ❌
