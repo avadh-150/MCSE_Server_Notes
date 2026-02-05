@@ -7,6 +7,7 @@ Think of it as:
 👉 _“I accept your identity — prove who you are, and I’ll let you in.”_ 🔐
 
 No copying users. No syncing passwords. Just **authentication recognition** between boundaries.
+
 ![Image](https://learn.microsoft.com/en-us/entra/identity/domain-services/media/concepts-forest-trust/kerberos-over-forest-trust-process-diagram.png)
 
 ![Image](https://learn.microsoft.com/en-us/entra/identity/domain-services/media/concepts-forest-trust/trust-relationships.png)
