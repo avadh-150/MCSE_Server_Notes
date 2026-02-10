@@ -85,6 +85,8 @@ Active Directory includes built-in administrative groups ⚙️:
 - 🛠️ **Administrators** — High-level system permissions
     
 
+![image](https://www.windows-active-directory.com/wp-content/uploads/2021/07/group.png)
+
 ---
 
 ## ✅ Best Practices for Using Groups
