@@ -154,7 +154,7 @@ Installation succeeded
 
 ✅ Click **Close**
 
-![image]()https://eu-images.contentstack.com/v3/assets/blt07f68461ccd75245/blt1735e245c9ccfeae/6650756a8bf0ee9bf7f811c6/DFS_201.jpg?width=1280&auto=webp&quality=80&disable=upscale
+![image](https://eu-images.contentstack.com/v3/assets/blt07f68461ccd75245/blt1735e245c9ccfeae/6650756a8bf0ee9bf7f811c6/DFS_201.jpg?width=1280&auto=webp&quality=80&disable=upscale)
 
 ---
 
