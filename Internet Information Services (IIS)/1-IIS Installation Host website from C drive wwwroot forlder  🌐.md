@@ -3,8 +3,6 @@
 
 # IIS Installation & Configuration on Windows Server 🖥️🌐
 
-This analysis explains the step-by-step process for installing and configuring **Internet Information Services (IIS)** on Windows Server as demonstrated in the two videos.
-
 ---
 
 # 🧩 Part 1: Installing the IIS Role
