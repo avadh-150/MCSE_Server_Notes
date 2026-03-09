@@ -173,6 +173,8 @@ Employees connect using:
 ftp://10.10.11.11
 ```
 
+![](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/FTP/add%20username%20and%20pass%20to%20login%20FTP.png?raw=true)
+
 ![](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/FTP/successfully%20login%20.png?raw=true)
 
 This allows **secure file sharing inside the organization network**.
