@@ -5,12 +5,9 @@
 
 ---
 
-# Phase 1 — Install FileZilla Server ⚙️
+# Phase 1 — Install FileZilla Client ⚙️
 
 ![Image](https://images.cloudclusters.io/1a653e84527149d18b26421825517508/install-filezilla-server-1.png)
-
-
-![Image](https://wiki.filezilla-project.org/wiki/images/b/bc/Installer-components.png)
 
 ### Step-by-Step Installation
 
@@ -170,6 +167,8 @@ ftp://ftp.iforward.in
 
 Replace with your **server IP address**.
 
+![](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/FTP/5.png?raw=true)
+
 ---
 
 ### Method 2 — Using FTP Client
@@ -196,6 +195,9 @@ After login, you should see the **shared folder contents**.
 You can now:
 
 ⬆ Upload files  
+
+![](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/FTP/8.png?raw=true)
+
 ⬇ Download files
 
 ---
