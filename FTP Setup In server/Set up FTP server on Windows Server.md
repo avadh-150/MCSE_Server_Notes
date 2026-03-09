@@ -202,7 +202,7 @@ Click **Finish**
 
 ![](https://dx86q6oq7ry0e.cloudfront.net/uploads/media/blog/a48%40server-panel.net/2023/06/15/image-20230615123020-4.jpg)
 
- 
+ ![](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/FTP/1.png?raw=true)
 
 ---
 
@@ -245,6 +245,8 @@ Enable:
 
 Click **OK**
 
+![](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/FTP/2.png?raw=true)
+
 ---
 
 # Phase 5 — Test the FTP Server 🧪
@@ -267,6 +269,10 @@ Example output:
 add A Record
 ```
 
+![](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/FTP/3.png?raw=true)
+
+![](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/FTP/4.png?raw=true)
+
 ---
 
 ### Step 2 — Connect to FTP
@@ -278,6 +284,7 @@ Type:
 ```
 ftp://10.10.11.11:21 Or ftp://ftp.iforward.in:21
 ```
+![](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/FTP/5.png?raw=true)
 
 ---
 
