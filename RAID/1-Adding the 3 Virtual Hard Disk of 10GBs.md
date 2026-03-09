@@ -26,6 +26,8 @@ Before adding the drive in Windows, you must first "plug in" the virtual hardwar
     
 8. **Save Changes:** Click **OK** on the Virtual Machine Settings window to confirm.
 
-**Image**
+9. Repeat it for 2 time with space 10 GB...
+
+![](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/RAID/1.png?raw=true)
 
 Once the hardware is added, you must tell Windows how to use it.
