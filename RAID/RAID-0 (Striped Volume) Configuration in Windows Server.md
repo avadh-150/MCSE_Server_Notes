@@ -11,8 +11,6 @@ RAID-0 spreads data across multiple disks to **increase performance**, but **it 
 
 # 🧱 Step 1: Initialize the New Disks
 
-
-
 When new disks are attached to the server, Windows requires initialization.
 
 **Procedure**
@@ -49,6 +47,8 @@ GPT (GUID Partition Table)
 Disk Status = Online
 Space Status = Unallocated
 ```
+
+![](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/RAID/2.png?raw=true)
 
 ---
 
@@ -128,7 +128,7 @@ Assign the following drive letter
 2️⃣ Example:
 
 ```
-E:
+R:
 ```
 
 3️⃣ Click
@@ -137,19 +137,11 @@ E:
 Next
 ```
 
-
+![](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/RAID/3.png?raw=true)
 
 ---
 
 # 🗂 Step 5: Format the RAID Volume
-
-
-
-
-
-
-
-
 
 This step prepares the RAID array to store files.
 
@@ -161,6 +153,8 @@ Allocation Unit Size : Default
 Volume Label : RAID-0
 Perform Quick Format : Enabled
 ```
+
+![](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/RAID/4.png?raw=true)
 
 Then click
 
@@ -192,6 +186,8 @@ Disks will be converted to Dynamic Disks
 Yes
 ```
 
+![](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/RAID/5.png?raw=true)
+
 ---
 
 # 🎯 Final Result
@@ -209,7 +205,10 @@ Color       : Teal
 
 The RAID-0 volume is now **ready for use**. 🚀
 
+![](https://github.com/avadh-150/MCSE_Server_Notes/blob/main/MCSE%20Class%20Notes/img/RAID/6.png?raw=true)
+
 ---
+
 
 # ⚠️ Reality Check (Important)
 
